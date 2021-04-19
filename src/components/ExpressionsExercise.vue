@@ -9,14 +9,19 @@
             below:
           </p>
 
-          <p>{{}}</p>
+          <p>{{4*5}}</p>
+          <p>{{4+4}}</p>
+          <p>{{10%5}}</p>
+          <p>{{4/2}}</p>
         </div>
         <div class="border p-1">
           <p>
             Use interpolation to get the customary Hello, World! to display on
             the screen. Don't forget your quotes
           </p>
-          <p>{{}}</p>
+          <p>{{`Hello, World!`}}</p>
+          <p>{{"Hello, World!"}}</p>
+          <p>{{'Hello, World!'}}</p>
         </div>
       </div>
     </div>
